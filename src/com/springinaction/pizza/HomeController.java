@@ -12,7 +12,6 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String redirectToFlow() {
-		LOGGER.warn("Inside HomeController:redirectToFlow() method.");
 		return "redirect:/pizza";
 	}
 
