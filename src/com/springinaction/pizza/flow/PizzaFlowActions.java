@@ -50,7 +50,8 @@ public class PizzaFlowActions {
 
 	public boolean checkDeliveryArea(String zipCode) {
 		LOGGER.warn("TODO: Flesh out the checkDeliveryArea() method.");
-		return "75075".equals(zipCode);
+		String myZipcode = "110053";
+		return myZipcode.equals(zipCode);
 	}
 
 	@Autowired
